@@ -1,0 +1,105 @@
+@font-face {
+    font-family:'Crang' ;
+    src: url('Crang.ttf') 
+    format('truetype');
+}
+@font-face {
+    font-family:'Roboto';
+    src: url('Roboto-Regular.ttf')
+    format('truetype');
+}
+body {
+    color: white;
+    background-color: black; 
+    font-family: 'Roboto', Times, serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+.aContainer {
+    color: white;
+    text-decoration: none;
+}
+.aContainer:hover {
+    color: rgb(93 24 220);
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid rgb(100, 149, 237);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Crang', Times, serif;
+    color: rgb(100, 149, 237);
+}
+
+p {
+    line-height: 28px; 
+}
+
+.abutton {
+    color: black;
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Roboto', Times, serif;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.abutton:hover {
+    letter-spacing: 3px;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.abutton:active {
+    letter-spacing: 3px;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
