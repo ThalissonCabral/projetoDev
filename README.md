@@ -20,7 +20,7 @@ RPG + Programação = **A fórmula perfeita para aprender se divertindo!**
 
 1. Clone este repositório para sua máquina local:
     ```bash
-    git clone ADICIONE O LINK DO REPOSITÓRIO 
+    git clone https://github.com/ThalissonCabral/projetoDev.git
     ```
 
 2. Acesse o diretório do projeto:
